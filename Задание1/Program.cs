@@ -5,9 +5,9 @@ Console.WriteLine("Пожалуйста, введите трехзначное �
 string number = Console.ReadLine() ?? "";
 int num = Convert.ToInt32(number);
 
-if(num < 999 && num > 100)
+if(num < 1000 && num > 99)
 {
-    Console.WriteLine($"{number[1]}");
+    Console.WriteLine($"Вторая цифра числа: {number[1]}");
 }
 
 else
