@@ -1,6 +1,6 @@
 ﻿//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
 
-Console.WriteLine("Пожалуйста, введите число от 1 до 7");
+Console.WriteLine("Пожалуйста, введите цифру от 1 до 7");
 string numFor = Console.ReadLine() ?? "";
 int number = Convert.ToInt32(numFor);
 
@@ -22,3 +22,4 @@ else
 }
 
 Result(number);
+
